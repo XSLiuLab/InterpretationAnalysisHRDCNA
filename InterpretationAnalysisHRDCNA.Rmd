@@ -658,7 +658,7 @@ plt.title('Logistic Regression')
 ax21 = plt.subplot(gs[3])
 svcm=confusion_matrix(la,SVMC_best.predict(X_test))
 sns.heatmap(svcm,fmt='g',cmap='Blues',annot=True,cbar=False,annot_kws = {'size':18},xticklabels=False)
-plt.title('SVC')
+plt.title('SVM')
 
 ax22 = plt.subplot(gs[4])
 xgbcm=confusion_matrix(la,XGB_best.predict(X_test))
@@ -733,7 +733,7 @@ rfcfpr,rfctpr,rfcthresholds = metrics.roc_curve(la,RFC_best.predict_proba(X_test
 plt.plot(rfcfpr,rfctpr,color='darkorange',lw=lw,label='Random Forest Classifier AUC= %0.4f' % rfc_auc)
 
 svmcfpr,svmctpr,svmcthresholds = metrics.roc_curve(la,SVMC_best.predict_proba(X_test)[:,1])
-plt.plot(svmcfpr,svmctpr,color='green',lw=lw,label='SVC AUC= %0.4f' % svmc_auc)
+plt.plot(svmcfpr,svmctpr,color='green',lw=lw,label='SVM AUC= %0.4f' % svmc_auc)
 
 rfcfpr,rfctpr,rfcthresholds = metrics.roc_curve(la,DET_best.predict_proba(X_test)[:,1])
 plt.plot(rfcfpr,rfctpr,color='violet',lw=lw,label='Decision Tree Classifier AUC= %0.4f' % det_auc)
@@ -785,7 +785,7 @@ xgbfpr,xgbtpr,xgbthresholds = metrics.roc_curve(la,XGB_best.predict_proba(X)[:,1
 plt.plot(xgbfpr,xgbtpr,color='cyan',lw=lw,label='XGB Classifier AUC= %0.4f' % xgb_auc)
 
 svmcfpr,svmctpr,svmcthresholds = metrics.roc_curve(la,SVMC_best.predict_proba(X)[:,1])
-plt.plot(svmcfpr,svmctpr,color='green',lw=lw,label='SVC AUC= %0.4f' % svmc_auc)
+plt.plot(svmcfpr,svmctpr,color='green',lw=lw,label='SVM AUC= %0.4f' % svmc_auc)
 
 etcfpr,etctpr,etcthresholds = metrics.roc_curve(la,ETC_best.predict_proba(X)[:,1])
 plt.plot(etcfpr,etctpr,color='olivedrab',lw=lw,label='ExtraTrees Classifier AUC= %0.4f' % etc_auc)
@@ -867,7 +867,7 @@ rfcfpr,rfctpr,rfcthresholds = metrics.roc_curve(la,RFC_best.predict_proba(alldat
 plt.plot(rfcfpr,rfctpr,color='darkorange',lw=lw,label='Random Forest Classifier AUC= %0.4f' % rfc_auc)
 
 svmcfpr,svmctpr,svmcthresholds = metrics.roc_curve(la,SVMC_best.predict_proba(alldata)[:,1])
-plt.plot(svmcfpr,svmctpr,color='green',lw=lw,label='SVC AUC= %0.4f' % svmc_auc)
+plt.plot(svmcfpr,svmctpr,color='green',lw=lw,label='SVM AUC= %0.4f' % svmc_auc)
 
 rfcfpr,rfctpr,rfcthresholds = metrics.roc_curve(la,DET_best.predict_proba(alldata)[:,1])
 plt.plot(rfcfpr,rfctpr,color='violet',lw=lw,label='Decision Tree Classifier AUC= %0.4f' % det_auc)
