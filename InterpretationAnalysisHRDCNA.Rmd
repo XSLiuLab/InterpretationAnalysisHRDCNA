@@ -131,7 +131,7 @@ To obtain a high-confidence training dataset of HRD, samples with BRCA1/2 defici
 # Selection of the method for HRD prediction model building
 This part describes how we chose the method of model development.
 
-To find the best performance model among a multitude of methods, a total of 9 machine learning models including extremely randomized trees (Extra trees), random forest, logistic regression, support vector machine(SVC), eXtreme gradient boosting (XGB), adaptive boosting (AdaBoost), decision tree, K-nearest neighbor (KNeighbor) and gradient boosting machine (GBM) were trained with preliminary parameter adjustment, and the performances of each machine learning models are reported as the area under the receiver operating characteristic (ROC) curve (AUC) of the held-out dataset.
+To find the best performance model among a multitude of methods, a total of 9 machine learning models including extremely randomized trees (Extra trees), random forest, logistic regression, support vector machine(SVM), eXtreme gradient boosting (XGB), adaptive boosting (AdaBoost), decision tree, K-nearest neighbor (KNeighbor) and gradient boosting machine (GBM) were trained with preliminary parameter adjustment, and the performances of each machine learning models are reported as the area under the receiver operating characteristic (ROC) curve (AUC) of the held-out dataset.
 
 ## Data preparing
 ```{python Preparing, echo=TRUE, eval=FALSE}
@@ -271,11 +271,11 @@ gsLR.best_score_
 
 joblib.dump(LR_best, "./data/modeldata/allmodel/LR_best.m")
 ```
-### SVC classifier
-```{python SVC Classifier, echo=TRUE, eval=FALSE}
+### SVM classifier
+```{python SVM Classifier, echo=TRUE, eval=FALSE}
 ### Python code
 
-### SVC Classifier
+### SVM Classifier
 SVMC = SVC(random_state=20220706, probability=True, class_weight = class_weight)
 
 Cs=[0.4]
