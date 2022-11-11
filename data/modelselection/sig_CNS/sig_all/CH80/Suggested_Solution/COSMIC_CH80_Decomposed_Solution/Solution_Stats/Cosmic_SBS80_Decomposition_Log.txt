@@ -1,0 +1,181 @@
+############################ Signature Decomposition Details ################################
+
+
+Context Type: 80
+Genome Build: GRCh37
+The following signatures are excluded: 
+
+
+
+######################## Decomposing SBS80A ########################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [0]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [0]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+#################### Final Composition #################################
+[0]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+
+
+
+######################## Decomposing SBS80B ########################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [1]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [1]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+#################### Final Composition #################################
+[1]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+
+
+
+######################## Decomposing SBS80C ########################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [2]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [2]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+#################### Final Composition #################################
+[2]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+
+
+
+######################## Decomposing SBS80D ########################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [3]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [3]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+#################### Final Composition #################################
+[3]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+
+
+
+######################## Decomposing SBS80E ########################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [4]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [4]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+#################### Final Composition #################################
+[4]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+
+
+
+######################## Decomposing SBS80F ########################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [5]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [5]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+#################### Final Composition #################################
+[5]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+
+
+
+######################## Decomposing SBS80G ########################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [6]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [6]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+#################### Final Composition #################################
+[6]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+
+
+
+######################## Decomposing SBS80H ########################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [7]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [7]
+L2 Error % 0.0
+Cosine Similarity 1.0
+
+#################### Final Composition #################################
+[7]
+L2 Error % 0.0
+Cosine Similarity 1.0

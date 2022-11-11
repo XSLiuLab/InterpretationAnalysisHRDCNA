@@ -1,0 +1,164 @@
+THIS FILE CONTAINS THE METADATA ABOUT SYSTEM AND RUNTIME
+
+
+-------System Info-------
+Operating System Name: Linux
+Nodename: slst-fat01
+Release: 3.10.0-957.el7.x86_64
+Version: #1 SMP Thu Nov 8 23:39:32 UTC 2018
+
+-------Python and Package Versions------- 
+Python Version: 3.10.6
+SigProfilerExtractor Version: 1.1.12
+SigProfilerPlotting Version: 1.2.2
+SigProfilerMatrixGenerator Version: 1.2.12
+SigProfilerAssignment Version: 0.0.13
+Pandas version: 1.5.0
+Numpy version: 1.23.3
+Scipy version: 1.9.1
+Scikit-learn version: 1.1.2
+
+--------------EXECUTION PARAMETERS--------------
+INPUT DATA
+	input_type: matrix
+	output: /public/home/yaohz/project/HRD/data/sig_all
+	input_data: /tmp/Rtmp42dECQ/dir50ae83737a4/sigprofiler_input.txt
+	reference_genome: GRCh37
+	context_types: SBS80
+	exome: False
+NMF REPLICATES
+	minimum_signatures: 2
+	maximum_signatures: 30
+	NMF_replicates: 100
+NMF ENGINE
+	NMF_init: random
+	precision: single
+	matrix_normalization: gmm
+	resample: True
+	seeds: random
+	min_NMF_iterations: 10,000
+	max_NMF_iterations: 1,000,000
+	NMF_test_conv: 10,000
+	NMF_tolerance: 1e-15
+CLUSTERING
+	clustering_distance: cosine
+EXECUTION
+	cpu: 64; Maximum number of CPU is 64
+	gpu: False
+Solution Estimation
+	stability: 0.8
+	min_stability: 0.2
+	combined_stability: 1.0
+	allow_stability_drop: False
+COSMIC MATCH
+	opportunity_genome: GRCh37
+	cosmic_version: 3.3
+	nnls_add_penalty: 0.05
+	nnls_remove_penalty: 0.01
+	initial_remove_penalty: 0.05
+	de_novo_fit_penalty: 0.02
+	refit_denovo_signatures: False
+	collapse_to_SBS96: True
+
+-------Analysis Progress------- 
+[2022-10-01 03:22:02] Analysis started: 
+
+##################################
+
+[2022-10-01 03:22:03] Analysis started for CH80. Matrix size [80 rows x 3337 columns]
+
+[2022-10-01 03:22:03] Normalization GMM with cutoff value set at 8000
+
+[2022-10-01 03:30:47] CH80 de novo extraction completed for a total of 2 signatures! 
+Execution time:0:08:43
+
+[2022-10-01 03:56:18] CH80 de novo extraction completed for a total of 3 signatures! 
+Execution time:0:25:31
+
+[2022-10-01 04:44:29] CH80 de novo extraction completed for a total of 4 signatures! 
+Execution time:0:48:10
+
+[2022-10-01 06:00:46] CH80 de novo extraction completed for a total of 5 signatures! 
+Execution time:1:16:17
+
+[2022-10-01 07:30:00] CH80 de novo extraction completed for a total of 6 signatures! 
+Execution time:1:29:14
+
+[2022-10-01 09:26:02] CH80 de novo extraction completed for a total of 7 signatures! 
+Execution time:1:56:01
+
+[2022-10-01 11:56:45] CH80 de novo extraction completed for a total of 8 signatures! 
+Execution time:2:30:43
+
+[2022-10-01 15:04:20] CH80 de novo extraction completed for a total of 9 signatures! 
+Execution time:3:07:35
+
+[2022-10-01 19:26:17] CH80 de novo extraction completed for a total of 10 signatures! 
+Execution time:4:21:56
+
+[2022-10-02 00:38:22] CH80 de novo extraction completed for a total of 11 signatures! 
+Execution time:5:12:05
+
+[2022-10-02 06:49:42] CH80 de novo extraction completed for a total of 12 signatures! 
+Execution time:6:11:19
+
+[2022-10-02 13:00:18] CH80 de novo extraction completed for a total of 13 signatures! 
+Execution time:6:10:36
+
+[2022-10-02 18:51:46] CH80 de novo extraction completed for a total of 14 signatures! 
+Execution time:5:51:27
+
+[2022-10-03 02:03:57] CH80 de novo extraction completed for a total of 15 signatures! 
+Execution time:7:12:11
+
+[2022-10-03 09:50:52] CH80 de novo extraction completed for a total of 16 signatures! 
+Execution time:7:46:54
+
+[2022-10-03 19:25:06] CH80 de novo extraction completed for a total of 17 signatures! 
+Execution time:9:34:14
+
+[2022-10-04 05:19:07] CH80 de novo extraction completed for a total of 18 signatures! 
+Execution time:9:54:01
+
+[2022-10-04 15:20:26] CH80 de novo extraction completed for a total of 19 signatures! 
+Execution time:10:01:18
+
+[2022-10-05 04:30:08] CH80 de novo extraction completed for a total of 20 signatures! 
+Execution time:13:09:41
+
+[2022-10-05 18:27:38] CH80 de novo extraction completed for a total of 21 signatures! 
+Execution time:13:57:29
+
+[2022-10-06 10:06:03] CH80 de novo extraction completed for a total of 22 signatures! 
+Execution time:15:38:24
+
+[2022-10-06 23:18:50] CH80 de novo extraction completed for a total of 23 signatures! 
+Execution time:13:12:47
+
+[2022-10-07 13:03:23] CH80 de novo extraction completed for a total of 24 signatures! 
+Execution time:13:44:32
+
+[2022-10-08 04:46:36] CH80 de novo extraction completed for a total of 25 signatures! 
+Execution time:15:43:13
+
+[2022-10-08 19:54:12] CH80 de novo extraction completed for a total of 26 signatures! 
+Execution time:15:07:35
+
+[2022-10-09 11:12:47] CH80 de novo extraction completed for a total of 27 signatures! 
+Execution time:15:18:34
+
+[2022-10-10 07:19:09] CH80 de novo extraction completed for a total of 28 signatures! 
+Execution time:20:06:22
+
+[2022-10-11 06:44:28] CH80 de novo extraction completed for a total of 29 signatures! 
+Execution time:23:25:18
+
+[2022-10-12 00:29:49] CH80 de novo extraction completed for a total of 30 signatures! 
+Execution time:17:45:20
+
+[2022-10-12 00:35:26] Analysis ended: 
+
+-------Job Status------- 
+Analysis of mutational signatures completed successfully! 
+Total execution time: 10 days, 21:13:24 
+Results can be found in:  /public/home/yaohz/project/HRD/data/sig_all  folder

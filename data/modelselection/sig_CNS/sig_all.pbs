@@ -1,0 +1,19 @@
+#!/bin/sh
+#PBS -N sig_all
+#PBS -k oe
+#PBS -l walltime=1000:00:00,nodes=1:ppn=20
+#PBS -q slst_fat
+
+cd /public/home/yaohz/project/HRD/data
+
+/public/home/yaohz/miniconda3/bin/conda
+
+source activate r-cna
+
+conda info -e 
+# module load /public/home/yaohz/miniconda3/envs/r-cna/bin/R/4.1.3
+
+Rscript call_all_sp.R
+
+
+
