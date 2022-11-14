@@ -1747,14 +1747,15 @@ churn.gbmtest4 = gbm(formula = type~., distribution = "bernoulli",
 We named the model “HRD~CNA~”.
 
 The features used by HRD~CNA~ to predict HRD and their contributions. The relative contribution of the corresponding feature to the model was calculated by taking the contribution of each feature for each tree in the model.
-```{r Relative Influence0, echo=TRUE, include=FALSE}
+```{r Relative Influence0, echo=TRUE, eval=FALSE}
 ### Relative Influence
 churn.gbmtest4 <- readRDS("./data/modeldata/churn.gbmtest4.rds")
 feat <- summary(churn.gbmtest4)
 feat$var <- gsub("\\`","",feat$var)
-# saveRDS(feat, "./data/modeldata/feature_influence.R")
+saveRDS(feat, "./data/modeldata/feature_influence.rds")
 ```
 ```{r Relative Influence, echo=TRUE, fig.height=3.8, fig.width=8}
+feat <- readRDS("~/HRD/HRDCNA/data/modeldata/feature_influence.rds")
 ggplot(feat, mapping = aes(x=reorder(var,rel.inf),y=rel.inf))+
   geom_bar(stat="identity",color="black",fill="#263859")+
   ylab("Relative Influence")+
