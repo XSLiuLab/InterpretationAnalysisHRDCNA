@@ -1,0 +1,4 @@
+Signatures	Stability	Total Mutations
+SBS80A	1.0	1198855
+SBS80B	1.0	1151878
+SBS80C	1.0	1114077
